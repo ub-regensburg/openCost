@@ -1,0 +1,45 @@
+
+
+<cite:citation xmlns="http://www.w3.org/1999/xhtml" xmlns:epc="http://eprints.org/ep3/control" xmlns:cite="http://eprints.org/ep3/citation" >
+
+
+<epc:if test="is_set('info')">
+	<h2>Information</h2>
+	<div>
+		<epc:print expr="info" />
+	</div>
+</epc:if>
+
+
+<epc:if test="is_set('participation')">
+	<h2>Contract period</h2>
+	<div>
+		<epc:print expr="participation_from" /> - <epc:print expr="participation_to" />
+	</div>
+</epc:if>
+
+<epc:if test="is_set('payments')">
+	<h2>Payments</h2>
+	<div>
+			<epc:print expr="payments" />
+			<!--
+		<epc:print expr="payments_amount" /> <epc:print expr="payments_currency" /> ( <epc:print expr="payments_type" /> )
+			-->
+				</div>
+</epc:if>
+
+
+<epc:if test="is_set('ezb_id') or is_set('esac_id')">
+	<h2>Links to other Systems</h2>
+	<epc:if test="is_set('ezb_id') or is_set('esac_id')">
+		<div><a href="https://ezb.ur.de/ezeit/fl.phtml?bibid={ezb_id}">EZB</a></div>
+	</epc:if>
+
+	<epc:if test="is_set('ezb_id') or is_set('esac_id')">
+		<div><a href="https://esac-initiative.org/about/transformative-agreements/agreement-registry/{esac_id}">ESAC</a></div>
+	</epc:if>
+
+</epc:if>
+
+
+</cite:citation>
