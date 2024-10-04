@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE phrases SYSTEM "entities.dtd">
+<epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/
+ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
+
+        <!-- dataset -->
+        <epp:phrase id="datasetname_contract">Vertrag</epp:phrase>
+
+        <!-- fieldnames -->
+       <epp:phrase id="contract_fieldname_contractid">Internal ID</epp:phrase>
+       <epp:phrase id="contract_fieldname_userid">User</epp:phrase>
+       <epp:phrase id="contract_fieldname_name">Name</epp:phrase>
+       <epp:phrase id="contract_fieldname_primary_identifier">ID</epp:phrase>
+       <epp:phrase id="contract_fieldname_esac_id">ESAC-ID</epp:phrase>
+       <epp:phrase id="contract_fieldname_ezb_id">EZB-ID</epp:phrase>
+        <epp:phrase id="contract_fieldname_info">Information</epp:phrase>
+        
+       <epp:phrase id="contract_fieldname_participation">Teilnahme</epp:phrase>
+       <epp:phrase id="contract_fieldname_participation_from">Von</epp:phrase>
+       <epp:phrase id="contract_fieldname_participation_to">Bis</epp:phrase>
+       <epp:phrase id="contract_fieldname_invoice">Rechnungen</epp:phrase>
+       <epp:phrase id="contract_fieldname_invoice_number">Numer</epp:phrase>
+       <epp:phrase id="contract_fieldname_invoice_creditor">Kreditor</epp:phrase>
+       <epp:phrase id="contract_fieldname_invoice_from">Von</epp:phrase>
+       <epp:phrase id="contract_fieldname_invoice_to">Bis</epp:phrase>
+       <epp:phrase id="contract_fieldname_invoice_amount">Höhe</epp:phrase>
+       <epp:phrase id="contract_fieldname_invoice_currency">Währung</epp:phrase>
+       <epp:phrase id="contract_fieldname_payments">Zahlungen</epp:phrase>
+      <epp:phrase id="contract_fieldname_payments_invoice">Rechnung</epp:phrase>
+      <epp:phrase id="contract_fieldname_payments_amount">Höhe</epp:phrase>
+      <epp:phrase id="contract_fieldname_payments_currency">Währung</epp:phrase>
+      <epp:phrase id="contract_fieldname_payments_type">Art</epp:phrase>
+
+      <epp:phrase id="currencies_typename_aud">AUD</epp:phrase>
+       <epp:phrase id="currencies_typename_brl">BRL</epp:phrase>
+       <epp:phrase id="currencies_typename_cad">CAD</epp:phrase>
+       <epp:phrase id="currencies_typename_chf">CHF</epp:phrase>
+       <epp:phrase id="currencies_typename_cny">CNY</epp:phrase>
+       <epp:phrase id="currencies_typename_eur">EUR</epp:phrase>
+       <epp:phrase id="currencies_typename_gbp">GBP</epp:phrase>
+       <epp:phrase id="currencies_typename_inr">INR</epp:phrase>
+       <epp:phrase id="currencies_typename_usd">USD</epp:phrase>
+
+      <epp:phrase id="contract_payment_types_typename_read">Read</epp:phrase>
+      <epp:phrase id="contract_payment_types_typename_publish">Publish</epp:phrase>
+      <epp:phrase id="contract_payment_types_typename_read_publish">Read and Publish</epp:phrase>
+      <epp:phrase id="contract_payment_types_typename_vat">VAT</epp:phrase>
+      <epp:phrase id="contract_payment_types_typename_other">Other</epp:phrase>
+
+</epp:phrases>
+
